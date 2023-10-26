@@ -1,8 +1,10 @@
 {
   "compilerOptions": {
     "module": "NodeNext",
+    "target": "ES6",
     // "moduleResolution": "",
     "baseUrl": "src",
+    "types": ["./src/io.d.ts"],
     "outDir": "dist",
     "sourceMap": true,
     "noImplicitAny": true
